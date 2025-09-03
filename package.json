@@ -1,0 +1,23 @@
+{
+  "name": "discord-application-bot",
+  "version": "1.0.0",
+  "description": "Discord v14 Application Bot with TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node index.ts",
+    "watch": "tsc -w"
+  },
+  "keywords": ["discord", "bot", "application", "typescript"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}

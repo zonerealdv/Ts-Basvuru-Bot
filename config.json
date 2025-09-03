@@ -1,0 +1,21 @@
+{
+  "token": "TOKEN",
+  "clientId": "BOT ID",
+  "guildId": "SUNUCU ID",
+  "applicationRole": "BASVURU ROLU ID",
+  "logChannel": "LOG KANALİ ID",
+  "customization": {
+    "buttons": {
+      "apply": "📝 Başvuru Yap",
+      "approve": "✅ Onayla",
+      "reject": "❌ Reddet"
+    },
+    "colors": {
+      "panel": "#3498db",
+      "success": "#00ff00",
+      "error": "#ff0000",
+      "warning": "#ffa500",
+      "info": "#17a2b8"
+    }
+  }
+}
